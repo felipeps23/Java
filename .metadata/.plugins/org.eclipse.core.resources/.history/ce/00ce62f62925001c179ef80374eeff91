@@ -1,0 +1,20 @@
+package cl.favorit.model;
+
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "detallefactura")
+public class DetalleFactura {
+	
+	@ManyToMany
+	@JoinColumn (name = "idProduct")
+	private Producto producto;
+	
+	ManyToMany
+	@JoinColumn (name = "idFactura")
+	private Factura factura;
+	
+}

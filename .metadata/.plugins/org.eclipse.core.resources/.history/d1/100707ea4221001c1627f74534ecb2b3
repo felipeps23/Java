@@ -1,0 +1,35 @@
+package modelo;
+
+public class Cliente {
+
+	private int idCliente;
+	private String nombre;
+	private int telefono;
+	private String email;
+	private int edad;
+	private String rubro;
+	private String direccion;
+	/**
+	 * @param id
+	 * @param nombre
+	 * @param telefono
+	 * @param email
+	 * @param edad
+	 * @param rubro
+	 * @param direccion
+	 */
+	public Cliente(int id, String nombre, int telefono, String email, int edad, String rubro, String direccion) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.telefono = telefono;
+		this.email = email;
+		this.edad = edad;
+		this.rubro = rubro;
+		this.direccion = direccion;
+	}
+	
+	
+	
+	
+}

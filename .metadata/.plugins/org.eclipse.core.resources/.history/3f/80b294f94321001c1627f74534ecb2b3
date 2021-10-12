@@ -1,0 +1,9 @@
+package idao;
+
+public interface Icliente {
+
+	public boolean agregar(Cliente cliente);
+	
+	
+	
+}

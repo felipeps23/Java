@@ -1,0 +1,11 @@
+package controlador;
+
+/*
+ * 
+ * Servlet implementacion
+ * 
+ */
+
+public class ClienteController extends HttpServer {	
+	
+}

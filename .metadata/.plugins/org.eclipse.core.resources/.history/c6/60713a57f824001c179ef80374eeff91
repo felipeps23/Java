@@ -1,0 +1,8 @@
+package cl.favorit.persona.service;
+
+import cl.favorit.persona.repository.PersonaRepository;
+
+public class PersonaService implements PersonaRepository{
+
+	private PersonaRepository personaRepository
+}

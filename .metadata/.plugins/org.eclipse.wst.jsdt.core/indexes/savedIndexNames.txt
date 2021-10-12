@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+H:\Felipe\Escritorio\Carpeta Trabajo Inicial\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2882583349.index
+2692934469.index
+3106504473.index
+365209334.index

@@ -1,0 +1,44 @@
+package ejercicio1;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Ejercicio1 {
+	// Ejercicio 1
+	
+	// Diseñar una aplicación que declare una tabla de 10 elementos enteros. Leer mediante el teclado 
+	// 6 números. Después se debe pedir un número y una posición, insertarlo en la posición indicada, 
+	// desplazando los que estén detrás.
+	
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		// Creo un arraylist elementos
+		ArrayList tabla = new ArrayList();
+		
+		int numero, posicion;
+		
+		// Leer 6 numeros
+		for (int i = 0; i < 6; i ++) {
+			System.out.println((i + 1) + ". Introduce un numero:");
+			tabla.add(teclado.nextInt());
+		}
+
+		// Pedir un numero
+		System.out.println("Introduce el numero que quiere añadir:");
+		numero = teclado.nextInt();
+		
+		// Elegir la posicion donde ese numero va a ir
+		System.out.println("En que posicion quiere introducirlo?");
+		posicion = teclado.nextInt();
+		
+		// Colocar el numero en la posicion indicada
+		tabla.add(posicion, numero);
+		
+		for(int i = 0; i < tabla.size(); i++) {
+            System.out.println(tabla.get(i));
+        }
+		
+	}
+
+}

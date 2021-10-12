@@ -1,0 +1,13 @@
+package controlador;
+
+import javax.servlet.http.HttpServlet;
+
+/*
+ * 
+ * Servlet implementacion de clase ClienteController
+ * 
+ */
+
+public class ClienteController extends HttpServlet {	
+	
+}

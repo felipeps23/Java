@@ -1,0 +1,30 @@
+package controlador;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/*
+ * 
+ * Servlet implementacion de clase ClienteController
+ * 
+ */
+
+@WebServlet("/AgregarCliente")
+public class AgregarCliente extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;	
+	
+	public AgregarCliente() {
+		super();
+	}
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServerException, IOException {
+		
+	}
+	
+}

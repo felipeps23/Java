@@ -1,0 +1,11 @@
+package idao;
+
+import modelo.Cliente;
+
+public interface Icliente {
+
+	public boolean agregar(Cliente cliente);
+		
+	public Cliente buscar(int id);
+	
+}

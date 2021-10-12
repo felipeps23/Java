@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+H:\Felipe\Escritorio\Carpeta Trabajo Inicial\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3339745299.index
+\CRUD-MVC-CLIENTE\src\main\java
+H:\Felipe\Escritorio\Carpeta Trabajo Inicial\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2882583349.index
+\CRUD-MVC\src\main\java

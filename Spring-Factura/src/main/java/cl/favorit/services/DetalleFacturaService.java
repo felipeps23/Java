@@ -1,0 +1,185 @@
+package cl.favorit.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.data.domain.Example;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+
+import cl.favorit.model.DetalleFactura;
+import cl.favorit.repository.DetalleFacturaRepository;
+
+public class DetalleFacturaService implements DetalleFacturaRepository{
+
+	@Override
+	public List<DetalleFactura> findAll() {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public List<DetalleFactura> findAll(Sort sort) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public List<DetalleFactura> findAllById(Iterable<Long> ids) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public <S extends DetalleFactura> List<S> saveAll(Iterable<S> entities) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public void flush() {
+		// TODO Esbozo de método generado automáticamente
+		
+	}
+
+	@Override
+	public <S extends DetalleFactura> S saveAndFlush(S entity) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public <S extends DetalleFactura> List<S> saveAllAndFlush(Iterable<S> entities) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public void deleteAllInBatch(Iterable<DetalleFactura> entities) {
+		// TODO Esbozo de método generado automáticamente
+		
+	}
+
+	@Override
+	public void deleteAllByIdInBatch(Iterable<Long> ids) {
+		// TODO Esbozo de método generado automáticamente
+		
+	}
+
+	@Override
+	public void deleteAllInBatch() {
+		// TODO Esbozo de método generado automáticamente
+		
+	}
+
+	@Override
+	public DetalleFactura getOne(Long id) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public DetalleFactura getById(Long id) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public <S extends DetalleFactura> List<S> findAll(Example<S> example) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public <S extends DetalleFactura> List<S> findAll(Example<S> example, Sort sort) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public Page<DetalleFactura> findAll(Pageable pageable) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public <S extends DetalleFactura> S save(S entity) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public Optional<DetalleFactura> findById(Long id) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public boolean existsById(Long id) {
+		// TODO Esbozo de método generado automáticamente
+		return false;
+	}
+
+	@Override
+	public long count() {
+		// TODO Esbozo de método generado automáticamente
+		return 0;
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		// TODO Esbozo de método generado automáticamente
+		
+	}
+
+	@Override
+	public void delete(DetalleFactura entity) {
+		// TODO Esbozo de método generado automáticamente
+		
+	}
+
+	@Override
+	public void deleteAllById(Iterable<? extends Long> ids) {
+		// TODO Esbozo de método generado automáticamente
+		
+	}
+
+	@Override
+	public void deleteAll(Iterable<? extends DetalleFactura> entities) {
+		// TODO Esbozo de método generado automáticamente
+		
+	}
+
+	@Override
+	public void deleteAll() {
+		// TODO Esbozo de método generado automáticamente
+		
+	}
+
+	@Override
+	public <S extends DetalleFactura> Optional<S> findOne(Example<S> example) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public <S extends DetalleFactura> Page<S> findAll(Example<S> example, Pageable pageable) {
+		// TODO Esbozo de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public <S extends DetalleFactura> long count(Example<S> example) {
+		// TODO Esbozo de método generado automáticamente
+		return 0;
+	}
+
+	@Override
+	public <S extends DetalleFactura> boolean exists(Example<S> example) {
+		// TODO Esbozo de método generado automáticamente
+		return false;
+	}
+
+}
+

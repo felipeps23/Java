@@ -1,0 +1,27 @@
+package cl.favorit.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "producto")
+public class Producto {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int idProducto;
+	private String nombre;
+	private int valor;
+	
+	@ManyToOne // Muchos a uno
+	@JoinColumn (name = "idCategoria")
+	private Categoria categoria
+	
+	
+}

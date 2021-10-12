@@ -1,0 +1,5 @@
+package cl.favorit.rest;
+
+public class FacturaREST {
+
+}

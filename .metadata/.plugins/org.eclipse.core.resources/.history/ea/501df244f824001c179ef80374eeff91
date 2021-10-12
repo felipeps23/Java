@@ -1,0 +1,5 @@
+package cl.favorit.persona.service;
+
+public class PersonaService {
+
+}

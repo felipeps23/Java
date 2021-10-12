@@ -1,0 +1,10 @@
+package cl.favorit.model;
+
+public class DetalleFacturaPK implements Serializable{
+
+	private static final long serialVersionUID = 1213212312312316545L;
+	
+	private int idProducto;
+	private int idFactura;
+	
+}

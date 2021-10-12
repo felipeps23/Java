@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Redenominar tipo «logica.Habitacion» como «Habitaciones»&#x0D;&#x0A;- Proyecto original: «Hotel»&#x0D;&#x0A;- Elemento original: «logica.Habitacion»&#x0D;&#x0A;- Elemento redenominado: «logica.Habitaciones»&#x0D;&#x0A;- Actualizar referencias a elemento refactorizado&#x0D;&#x0A;- Actualizar apariciones textuales en comentarios y cadenas de texto" description="Redenominar tipo «Habitacion»" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;logica{Habitacion.java[Habitacion" matchStrategy="1" name="Habitaciones" qualified="false" references="true" similarDeclarations="false" stamp="1632234422730" textual="false" version="1.0"/>
+</session>

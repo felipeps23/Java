@@ -1,0 +1,53 @@
+package cl.favorit.model;
+
+public class DetalleFacturaPK implements Serializable{
+
+	private static final long serialVersionUID = 1213212312312316545L;
+	
+	private int idProducto;
+	private int idFactura;
+	
+	/**
+	 * 
+	 */
+	public DetalleFacturaPK() {
+		super();
+	}
+
+	/**
+	 * @param idProducto
+	 * @param idFactura
+	 */
+	public DetalleFacturaPK(int idProducto, int idFactura) {
+		super();
+		this.idProducto = idProducto;
+		this.idFactura = idFactura;
+	}
+
+	public int getIdProducto() {
+		return idProducto;
+	}
+
+	public void setIdProducto(int idProducto) {
+		this.idProducto = idProducto;
+	}
+
+	public int getIdFactura() {
+		return idFactura;
+	}
+
+	public void setIdFactura(int idFactura) {
+		this.idFactura = idFactura;
+	}
+	
+	public int hashCode() {
+		public int prime = 31;
+		int result = 1;
+		result = prime * result + idFactura;
+		result = prime * idProducto;
+		return result;
+	
+	}
+	
+	
+}

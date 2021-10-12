@@ -1,0 +1,8 @@
+package cl.favorit.persona.model;
+
+public class Pais {
+
+	private Long id;
+	private String nombre;
+	
+}

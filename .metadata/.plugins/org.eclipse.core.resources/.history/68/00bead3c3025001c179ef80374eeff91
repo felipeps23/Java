@@ -1,0 +1,68 @@
+package cl.favorit.model;
+
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "detallefactura")
+public class DetalleFactura {
+	
+	@ManyToMany
+	@JoinColumn (name = "idProduct")
+	private Producto producto;
+	
+	@ManyToMany
+	@JoinColumn (name = "idFactura")
+	private Factura factura;
+	
+	private int cantidad;
+
+	/**
+	 * 
+	 */
+	public DetalleFactura() {
+		super();
+	}
+
+	/**
+	 * @param producto
+	 * @param factura
+	 * @param cantidad
+	 */
+	public DetalleFactura(Producto producto, Factura factura, int cantidad) {
+		super();
+		this.producto = producto;
+		this.factura = factura;
+		this.cantidad = cantidad;
+	}
+
+	public Producto getProducto() {
+		return producto;
+	}
+
+	public void setProducto(Producto producto) {
+		this.producto = producto;
+	}
+
+	public Factura getFactura() {
+		return factura;
+	}
+
+	public void setFactura(Factura factura) {
+		this.factura = factura;
+	}
+
+	public int getCantidad() {
+		return cantidad;
+	}
+
+	public void setCantidad(int cantidad) {
+		this.cantidad = cantidad;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,17 @@
+<DOCTYPE html>
+<hmtl>
+	<head>	
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>Ejemplo de Servlet</title>
+	</head>
+	<body>
+		<form action="RecuperaUser" method="post">
+			<h1>Ingrese datos de usuario</h1>
+			Ingrese nombre de usuario
+			<input type="text" name="usuario" size="20"><br>
+			Ingrese clave
+			<input type="text" name="usuario" size="20"><br>
+			<input type="submit" value="Confirmar">
+		</form>
+	</body>
+</hmtl>

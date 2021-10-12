@@ -1,0 +1,5 @@
+package cl.favorit.persona.repository;
+
+public interface PaisRepository {
+
+}

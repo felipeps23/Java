@@ -1,0 +1,5 @@
+package cl.favorit.persona.rest;
+
+public class EstadoREST {
+
+}

@@ -1,0 +1,13 @@
+package conexion;
+
+import java.sql.*;
+
+public class ConexionSingleton {
+
+	private static Connection conn = null;
+	private String driver;
+	private String url;
+	private String username;
+	private String password
+	
+}

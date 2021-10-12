@@ -1,0 +1,5 @@
+package cl.favorit.repository;
+
+public interface DetalleFacturaRepository {
+
+}

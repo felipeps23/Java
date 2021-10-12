@@ -1,0 +1,6 @@
+1633334829156	Rename package 'cl.favorit.modelo'
+1633335187731	Rename package 'cl.favorit.persona.modelo'
+1633340180404	Rename type 'PersonaRest'
+1633341265813	Encapsulate field 'personaRepository'
+1633341613714	Encapsulate field 'paisRepository'
+1633341703235	Encapsulate field 'estadoRepository'

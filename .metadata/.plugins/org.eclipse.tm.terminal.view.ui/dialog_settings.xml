@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="LaunchTerminalSettingsDialog">
+		<item key="terminalLabel" value="Terminal local"/>
+		<section name="SettingsPanelControl">
+			<section name="Terminal SSH">
+				<item key="lastHost" value="Felipe"/>
+				<list key="hosts">
+					<item value="Felipe|ssh.keep_alive:300:ip.port:22:ip.host:Felipe:savePassword:false:encoding:UTF-8:timeout:0:saveUser:false"/>
+				</list>
+			</section>
+			<section name="Terminal local">
+				<item key="encoding" value="UTF-8"/>
+			</section>
+			<section name="Git Bash">
+			</section>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,12 @@
+package cl.favorit.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "detallefactura")
+public class DetalleFactura {
+
+	private Long idProducto
+	
+}
